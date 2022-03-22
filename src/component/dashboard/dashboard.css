@@ -1,0 +1,84 @@
+.dashboard {
+  padding: 10px;
+  height: 1vh !important;
+}
+
+.topbar {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left h1 {
+  font-size: 30px;
+  margin: -10px 0;
+}
+
+.topbar .left .money {
+  display: flex;
+  align-items: center;
+}
+
+.money .currency {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.currency img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+
+}
+
+.topbar .right button {
+  width: 120px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #0b559b;
+  box-shadow: 1px 1px 5px #0b559b;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.maindetails h1 {
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.statusImage {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.status p {
+  font-size: 16px;
+}
+
+.status .success {
+  color: green;
+}
+
+.status .fail {
+  color: red;
+}
+
+.status .pend {
+  color: #0084ff;
+}

@@ -1,0 +1,125 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    overflow: hidden;
+  }
+}
+
+.imageContainer {
+  width: 60px;
+  height: 60px;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.loginHeader {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.loginDetails {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.loginDetails label {
+  font-size: 14px;
+  color: #4e4e4e;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.loginDetails input {
+  width: inherit;
+  padding: 12px 10px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+}
+
+.loginDetails p {
+  color: red;
+  font-size: 13px;
+  margin-top: -2px;
+}
+
+.loginButton {
+  display: flex;
+  background-color: #4338CA;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.loginButton .logo {
+  width: 20px;
+  height: 20px;
+}
+
+.loginButton button {
+  color: white;
+  background-color: inherit;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.notes {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.notes a {
+  color: #4338CA;
+  text-decoration: none;
+}
+
+.errorInput {
+  border: 1px solid red !important;
+}
+
+.errorInput:focus {
+  outline: 1px solid red;
+}
+
+.good {
+  border: 1px solid green !important;
+}
+
+.good:focus {
+  outline: 1px solid green;
+}
